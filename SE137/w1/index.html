@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Rich</title>
+    
+    <style>
+        body {background-color:coral;}
+        .aqua {color:aquamarine;}
+        .red {color:red;}
+        .hide {display:none;}
+
+
+
+    </style>
+</head>
+<h1>Dylan Rich</h1>
+<hr>
+<div id='nav'>
+    <a href="#"id='bioLink2'><em>Bio</em></a>
+    <a href="#"id='eduLink2'>Education</a>
+    <a href="#"id='hobbyLink2'>Hobbies</a>
+</div>
+<hr>
+<div id="main">
+    <div id="bio">
+        <H2>My Bio</H2>
+        <img src="images\bio.jpg" alt="bio pic">
+        <p class='aqua'>
+        My name is Dylan Rich and I grew up in Cape Cod, MA. Some of my hobbies include basketball, video games, computers, and music. My favorite food is pasta and I have red hair
+        </p> 
+
+        <p class='red'>
+         Most of my life I grew up in a small town called Mashpee, and graduated with just about 100 people in my class, but since moved to Falmouth, a much different town than im used to. I am currently at NEIT studying Software Engineering and hope to pursue a career in it.
+
+        </p>
+    </div>
+    <hr>
+
+    <div id="education">
+        <h2>
+            Schooling
+        </h2>
+        <ul>
+            <li>Quashnet School</li>
+            <li>Mashpee High School</li>
+          <li>  <a href="https://www.neit.edu/" target="_blank">NEIT</a> </li>
+        </ul>
+
+    </div>
+    <hr>
+
+    <div id="hobbies">
+        <h2>Hobbies</h2>
+        <ol>
+          <li> <b>Basketball</b></li> 
+           <li> <i>Rap Music</i></li>
+           <li>  <strong>Video Games</strong> </li>
+        </ol>
+        <img src="images\ball.jpg" alt="ball pic">
+    </div>
+    <hr>
+    <div id='footer'>
+        ©2021 Dylan Rich | W1 Assignment
+    </div>
+    <script>
+        //Links
+        var bioLinker = document.QuerySelector('BioLink2')
+        var eduLinker = document.QuerySelector('eduLink2')
+        var hobLinker = document.QuerySelector('hobbyLink2')
+
+        //DIVS
+        var bio = document.QuerySelector("#bio")
+        var edu = document.QuerySelector("#education")
+        var hob = document.QuerySelector("#hobbies")
+
+
+
+        
+        
+        
+        bioLinker.addEventListener(`click`, bioLink)
+        function bioLink(e)
+        {
+            e.preventDefault()
+            bio.classList.remove(`hide`)
+            edu.classList.add(`hide`)
+            hob.classList.add(`hide`)
+        }
+
+        eduLinker.addEventListener(`click`, eduLink)
+        function eduLink(e)
+        {
+            e.preventDefault()
+            bio.classList.add(`hide`)
+            edu.classList.remove(`hide`)
+            hob.classList.add(`hide`)
+        }
+
+        hobLinker.addEventListener(`click`, hobLink)
+        function hobLink(e)
+        {
+            e.preventDefault()
+            bio.classList.add(`hide`)
+            edu.classList.add(`hide`)
+            hob.classList.remove(`hide`)
+        }
+    </script>
+</div>
+<hr>
+<body>
+    
+</body>
+</html>
