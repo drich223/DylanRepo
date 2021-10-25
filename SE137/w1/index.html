@@ -7,16 +7,26 @@
     <title>Dylan Rich</title>
     
     <style>
-        body {background-color:coral;}
-        .aqua {color:aquamarine;}
-        .red {color:red;}
+        body {background-color:#FFFFFF}
+        .aqua {color:grey;}
+        .red {color:grey;}
         .hide {display:none;}
-
-
-
+        #nav {display:none;}
+        .bio {grid-area:bio;background: #ACDFE3;}
+        .education {grid-area:edu;}
+        .hobbies {grid-area:hobbies;background:#ACDFE3;}
+        #footer{grid-area:footer}
+        #head{grid-area:header}
+        #main {display:grid;
+            grid-template-areas:
+            'header header header header'
+            'bio bio bio bio'
+            'hobbies hobbies edu edu'
+            'footer footer footer footer';
+            grid-gap:5px;}
     </style>
 </head>
-<h1>Dylan Rich</h1>
+<h1 id='head'>Dylan Rich</h1>
 <hr>
 <div id='nav'>
     <a href="#"id='bioLink2'><em>Bio</em></a>
@@ -63,7 +73,7 @@
     </div>
     <hr>
     <div id='footer'>
-        ©2021 Dylan Rich | W1 Assignment
+        ©2021 Dylan Rich | W3 Assignment
     </div>
     <script>
         //Links
