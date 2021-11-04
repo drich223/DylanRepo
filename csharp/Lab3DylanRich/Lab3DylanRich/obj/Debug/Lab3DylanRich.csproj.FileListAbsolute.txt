@@ -1,0 +1,7 @@
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\bin\Debug\Lab3DylanRich.exe.config
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\bin\Debug\Lab3DylanRich.exe
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\bin\Debug\Lab3DylanRich.pdb
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\obj\Debug\Lab3DylanRich.csproj.AssemblyReference.cache
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\obj\Debug\Lab3DylanRich.csproj.CoreCompileInputs.cache
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\obj\Debug\Lab3DylanRich.exe
+C:\Users\008008568\Desktop\Lab3DylanRich\Lab3DylanRich\obj\Debug\Lab3DylanRich.pdb
