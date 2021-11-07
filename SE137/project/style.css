@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&family=Rock+Salt&display=swap');
+ 
+
+header{
+    background-color:black;
+    height:100px;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    left:0;
+    top:0;
+    width:100%
+}
+#headertitle{
+    color: #BB0908;
+    font-family: 'Teko', sans-serif;
+    font-size: 48px;
+    position:absolute;
+    line-height: 69px;
+    left: 15px;
+    top: -10px;
+    
+
+}
+body{
+    background-color: #282828;
+    width:1820px;
+    height:918px;
+    margin:0px;
+}
+container{
+    display:grid;
+    grid-template-areas:'jasonbanner jasonbanner timeline'
+                        'thirtyanni campfire timeline';
+    grid-gap:0px;
+    padding:0px;
+    margin:0px;
+    width:1820px;
+    height:918px;
+}
+#jasonbanner img{
+    width:1440px;
+    height:388px;
+    grid-area:jasonbanner;
+    margin:0px;
+    margin-right:20px;
+}
+.thirtyanni{
+    display:flexbox;
+    width: 700px;
+    height: 481px;
+    border-top:5px solid #BB0908;
+    grid-area: thirtyanni;
+    left: 20px;
+    top: 512px;
+    position:absolute;
+    background:#393939;
+    flex-direction: row;
+}
+
+#thirtyth {
+    width:353px;
+    height:77px;
+    float:right;
+    font-family:Rock Salt;
+    font-size:30px;
+    color:#FF1D29;
+    line-height:72px;
+    margin:0;
+}
+.campfire{
+    width:700px;
+    height:481px;
+    background: #393939;
+    grid-area: campfire;
+}
+.timeline{
+    width:360px;
+    height:918px;
+    background:#393939;
+    grid-area: timeline;
+    left: 1460px;
+    top: 99px;
+    position:absolute;
+}
+#paragraph{
+    font-family:Poppins;
+    font-size:18px; 
+    height:216px;
+    width:349px;
+    color:white;
+    float:right;
+    text-align:left;
+    margin:20px;
+    margin-bottom:0px;
+    
+}
+#dvd{
+width: 117px;
+height: 148px;
+margin-left:20px;
+margin-bottom:20px;
+float:left;
+}
+#flagpic{
+width: 641px;
+height: 229px;
+margin-left:24px;
+}
+#amzn{
+
+text-align:right;
+margin-right:38px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-decoration-line: underline;
+float:right;
+color: #22C1CB;
+}
+
+#price{
+    font-family:Teko;
+    font-style:normal;
+    font-size:72px;
+    line-height:103.18px;
+    color:white;
+    text-decoration-line: underline;
+    margin:0;
+    margin-right:30px;
+    height:101px;
+    width:175px;
+    float:right;
+}
+#poster{
+    float:left
+}
+.Thirtyflextext{
+    width: 390px;
+    height: 481px;
+    float:right;
+}
+.campflag{
+    width:700px;
+    height:481px;
+    left: 740px;
+    background: #393939;
+    top: 511px;
+    position:absolute;
+    border-top:5px solid #BB0908;
+}
+#text{
+    width: 676px;
+    height: 195px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+text-align:left;
+align-self:auto;
+margin-left:24px;
+
+color: #FFFFFF;
+}
+
+#farrighttext{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color:#FFFFFF;
+}
+#textcontainer{
+    width:275px;
+    height:385px;
+    margin-left:44px;
+}
+#campsign{
+    width:325px; 
+    height:254px;
+    margin-left:20px;
+    margin-top:20px;
+}
+#redtext{
+    color: #FC0303;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+}
+#underwata{
+    position: absolute;
+width: 325px;
+height: 170.52px;
+margin:18px;
+margin-top:40px;
+}
+footer{
+    height:60px;
+    background-color:black;
+}   
+#footertext{
+    font-family: Teko;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+position: absolute;
+width: 200px;
+height: 17px;
+left: 30px;
+top: 1038px;
+color: #BCBCBC;
+}
