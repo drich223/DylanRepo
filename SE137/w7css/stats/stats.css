@@ -1,0 +1,87 @@
+html, body{
+    margin:0;
+    height:100vh;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:coral
+}
+table{
+    width:80%;
+    border-collapse: collapse;
+}
+ td{
+    border-bottom:1px solid black;
+}
+thead{
+    background-color:blanchedalmond;
+    color:brown;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+tbody{
+    background-color:brown;
+    color:blanchedalmond;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+@media only screen and (max-width: 1920px){
+h1{
+    font-size:1.5em;
+}
+thead{
+    font-size:1em;
+}
+tbody{
+    font-size:1em;
+}
+.abv{
+    display:none;
+}
+
+}
+
+@media only screen and (max-width: 1000px){
+    .nonabv{
+        display:none;
+    }
+    .abv{
+        display:contents;
+    }
+    h1{
+        font-size:1.5em;
+    }
+    thead{
+        font-size:1em;
+    }
+    tbody{
+        font-size:1em;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 500px){
+
+.stat{
+    display:none;
+}
+h1{
+    font-size:2em;
+}
+thead{
+    font-size:1.5em;
+}
+tbody{
+    font-size:1.25em;
+}
+
+
+
+}
