@@ -1,0 +1,195 @@
+nav{
+    background-color:#DE9385;
+    width:100%;
+    height:75px;
+    display:flex;
+}
+#featured{
+    background-color:#DE9385;
+    width:15%;
+    height:100%;
+    float:right;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+}
+#projects{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    background-color:#DE9385;
+    width:15%;
+    height:100%;
+    float:right;
+}
+#featured a{
+    color:#FAE296;
+    text-decoration:none;
+    transition:1s;
+
+}
+#projects a{
+    color:#FAE296;
+    text-decoration:none;
+    transition:1s;
+
+    }
+body{
+width:100%;
+height:100%;
+background-color:#E0C9A7;
+}
+#name{
+    text-align: center;
+    vertical-align: middle;
+    background-color:#DE9385;
+    width:25%;
+    height:100%;
+    transition:1s;
+}
+#name a{
+    margin-top:15px;
+    color:#FAE296;
+    font-size:25px;
+    text-align: center;
+    vertical-align: middle;
+    transition:1s;
+    text-decoration:none;
+}
+#featured a:hover{
+    color:#DE9385;
+    text-decoration:none;
+    transition:1s;
+    background-color:#E0C9A7;
+
+}
+#projects a:hover{
+    color:#DE9385;
+    text-decoration:none;
+    transition:1s;
+    background-color:#E0C9A7;
+
+}
+#name a:hover{
+    color:#DE9385;
+    text-decoration:none;
+    transition:1s;
+    background-color:#E0C9A7;
+}
+container{
+    width:90%;
+    background-color:#DE9385;
+    height:825px;
+    border:1px solid #FAE296;
+    display:grid;
+    grid-template-areas:'future future'
+                        'bio repo';
+    margin:auto;
+    margin-top:25px;
+
+}
+.bio{
+    grid-area:bio;
+}
+.repo{
+    grid-area:repo;
+}
+.featuredproject{
+    grid-area:future;
+    width:100%;
+    height:500px;
+    display:flex;
+}
+.featuredproject h1{
+    color:#FAE296;
+    margin:5px;
+}
+.featuredproject p{
+    color:#FAE296;margin:5px;
+}
+.bio h1{
+    color:#FAE296;
+    margin:5px;
+}
+.bio p{
+    color:#FAE296;
+    font-size:24px;
+    margin:5px;
+}
+.repo h1{
+    color:#FAE296;
+    margin:5px;
+
+}
+.repo a{
+    text-decoration:none;
+    color:#FAE296;
+    transition:1s;
+    margin:5px;
+}
+.repo a:hover{
+    text-decoration:none;
+    color:#DE9385;
+    transition:1s;
+    background-color:#FAE296;
+}
+#containernav{
+    justify-content:center;
+    display:block;
+}
+#containernav h1{
+    color:#FAE296;
+    text-align: center;
+    vertical-align: middle;
+}
+#containernav img{
+    vertical-align: middle;
+    display:inline-block;
+    margin:auto;
+}
+#containernav p{
+    color:#FAE296;
+    text-align: center;
+    vertical-align: middle;
+}
+#cool h1{
+    background-color:#FAE296;
+    color:#DE9385;
+}
+.col{
+    background-color:#DE9385;
+    border:1px solid #FAE296;
+    width:250px;
+    height:400px;
+    margin:auto;
+}
+
+#center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col a{
+    text-decoration:none;
+    color:#FAE296;
+    transition:1s;
+    margin:5px;
+}
+.col a:hover{
+    text-decoration:none;
+    color:#DE9385;
+    transition:1s;
+    background-color:#FAE296;
+}
+.col p{
+    text-decoration:none;
+    color:#FAE296;
+    transition:1s;
+    margin:5px;
+}
+.col p:hover{
+    text-decoration:none;
+    color:#DE9385;
+    transition:1s;
+    background-color:#FAE296;
+}
