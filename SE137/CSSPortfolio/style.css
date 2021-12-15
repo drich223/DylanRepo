@@ -156,3 +156,40 @@ container{
     background-color:#FAE296;
     color:#DE9385;
 }
+.col{
+    background-color:#DE9385;
+    border:1px solid #FAE296;
+    width:250px;
+    height:400px;
+    margin:auto;
+}
+
+#center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col a{
+    text-decoration:none;
+    color:#FAE296;
+    transition:1s;
+    margin:5px;
+}
+.col a:hover{
+    text-decoration:none;
+    color:#DE9385;
+    transition:1s;
+    background-color:#FAE296;
+}
+.col p{
+    text-decoration:none;
+    color:#FAE296;
+    transition:1s;
+    margin:5px;
+}
+.col p:hover{
+    text-decoration:none;
+    color:#DE9385;
+    transition:1s;
+    background-color:#FAE296;
+}

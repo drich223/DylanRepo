@@ -10,27 +10,40 @@
     <title>Dylans Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<nav>
-    <div id="name">
-        <a href='index.html'>Dylan Rich | Software Engineer</a>
-    </div><!--end of "name"-->
-    <div id="featured">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dylans Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
+              <li><a class="dropdown-item" href="featured.html">Featured Project</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+            </ul>
+          </li>
+          
+        </ul>
         
-        <a href="featured.html">Featured Project</a>
-
-    </div> <!--end of featured-->
-    <div id="projects">
-        
-        <a href="projects.html">Projects</a>
-
-    </div> <!-- end of projects-->
-</nav>
+      </div>
+    </div>
+  </nav>
 <body>
     <container>
         <div class="featuredproject">
             <h1>Featured Project:</h1>
             <p>For my featured project im showing off my rocket I programmed exclusively with CSS. Impossible? Not at all.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Netus et malesuada fames ac turpis. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Eu augue ut lectus arcu bibendum at. Orci phasellus egestas tellus rutrum tellus. Convallis a cras semper auctor neque.</p>
-            <img src="images/him.jpeg" alt="CSS Rocket" id=edit> 
+            <img src="images/him.jpeg" alt="CSS Rocket" class="img-fluid"> 
         </div><!--end of featuredproject-->
 
         <div class="bio">
@@ -44,4 +57,7 @@
         </div><!--end of repo-->
     </container>
 </body>
+<footer>
+    &copy; 2021 Cascading Style Sheets Dylan Rich
+</footer>
 </html>
